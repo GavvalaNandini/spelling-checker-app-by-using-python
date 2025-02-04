@@ -28,7 +28,7 @@ enter_text.pack(pady=10)
 
 enter_text.focus()
 
-button-Button(root, text="Check", font=("arial", 20, "bold"), fg="white", bg="red",command=check_spelling)
+button=Button(root, text="Check", font=("arial", 20, "bold"), fg="white", bg="red",command=check_spelling)
 
 button.pack()
 
